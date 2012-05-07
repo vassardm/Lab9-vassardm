@@ -9,3 +9,7 @@ end
 When /^I type "([^""]*)" and press Enter$/ do |arg1|                  
 	type(arg1)
 end                                                                
+
+Then /^the output should contain "([^""]*)" and quit the program$/ do |arg1|
+  type(arg1)
+end
